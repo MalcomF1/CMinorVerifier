@@ -1,0 +1,561 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>CMinor: cminor.Location类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">CMinor
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacecminor.html">cminor</a></li><li class="navelem"><a class="el" href="classcminor_1_1_location.html">Location</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="classcminor_1_1_location-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">cminor.Location类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>用于表示“程序位置”的类。  
+ <a href="#details">更多...</a></p>
+<div class="dynheader">
+类 cminor.Location 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classcminor_1_1_location.png" usemap="#cminor.Location_map" alt=""/>
+  <map id="cminor.Location_map" name="cminor.Location_map">
+<area href="classcminor_1_1_exit_location.html" alt="cminor.ExitLocation" shape="rect" coords="0,56,160,80"/>
+<area href="classcminor_1_1_head_location.html" title="用于表示“头”（循环头以及函数头）的程序位置的抽象类。" alt="cminor.HeadLocation" shape="rect" coords="170,56,330,80"/>
+<area href="classcminor_1_1_entry_location.html" title="前置条件块，或者说函数头块，里面包括前置条件和秩函数。" alt="cminor.EntryLocation" shape="rect" coords="85,112,245,136"/>
+<area href="classcminor_1_1_loop_head_location.html" title="循环头位置，其中包括循环不变式和秩函数。" alt="cminor.LoopHeadLocation" shape="rect" coords="255,112,415,136"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a3a71676f4860c04f59a9175033429a48" id="r_a3a71676f4860c04f59a9175033429a48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a71676f4860c04f59a9175033429a48">Location</a> ()</td></tr>
+<tr class="separator:a3a71676f4860c04f59a9175033429a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57e161dd922f674db88143d3d22bccac" id="r_a57e161dd922f674db88143d3d22bccac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57e161dd922f674db88143d3d22bccac">Location</a> (<a class="el" href="classcminor_1_1_function.html">Function</a> currentFunction)</td></tr>
+<tr class="separator:a57e161dd922f674db88143d3d22bccac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85ab5b5ffc81061551c18dcd4b26aad4" id="r_a85ab5b5ffc81061551c18dcd4b26aad4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85ab5b5ffc81061551c18dcd4b26aad4">Location</a> (<a class="el" href="classcminor_1_1_function.html">Function</a> currentFunction, <a class="el" href="classcminor_1_1_location.html">Location</a> lastLocation, <a class="el" href="classcminor_1_1_statement.html">Statement</a>? statement=null)</td></tr>
+<tr class="separator:a85ab5b5ffc81061551c18dcd4b26aad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af08b38bf3794a716f476a9dc30e391a6" id="r_af08b38bf3794a716f476a9dc30e391a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af08b38bf3794a716f476a9dc30e391a6">RemovePred</a> (<a class="el" href="classcminor_1_1_location.html">Location</a> v)</td></tr>
+<tr class="separator:af08b38bf3794a716f476a9dc30e391a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8134a094e85f5dd9f3a71b13b8ff60a" id="r_ad8134a094e85f5dd9f3a71b13b8ff60a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8134a094e85f5dd9f3a71b13b8ff60a">RemoveSucc</a> (<a class="el" href="classcminor_1_1_location.html">Location</a> v)</td></tr>
+<tr class="separator:ad8134a094e85f5dd9f3a71b13b8ff60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa156941664aec6ae24bb5df66bc2b77f" id="r_aa156941664aec6ae24bb5df66bc2b77f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa156941664aec6ae24bb5df66bc2b77f">Print</a> (TextWriter writer)</td></tr>
+<tr class="separator:aa156941664aec6ae24bb5df66bc2b77f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69e065972d14951c200d907ffad540ec" id="r_a69e065972d14951c200d907ffad540ec"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69e065972d14951c200d907ffad540ec">ToString</a> ()</td></tr>
+<tr class="separator:a69e065972d14951c200d907ffad540ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:af946247f1de425ee3d397f2e43d19f5a" id="r_af946247f1de425ee3d397f2e43d19f5a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af946247f1de425ee3d397f2e43d19f5a">AddEdge</a> (<a class="el" href="classcminor_1_1_location.html">Location</a> u, <a class="el" href="classcminor_1_1_location.html">Location</a> v, <a class="el" href="classcminor_1_1_statement.html">Statement</a> statement)</td></tr>
+<tr class="separator:af946247f1de425ee3d397f2e43d19f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e9da39a61b5fb500b63a8c2abec2a26" id="r_a1e9da39a61b5fb500b63a8c2abec2a26"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcminor_1_1_location.html">Location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e9da39a61b5fb500b63a8c2abec2a26">Merge</a> (<a class="el" href="classcminor_1_1_function.html">Function</a> currentFunction, <a class="el" href="classcminor_1_1_location.html">Location</a> u, <a class="el" href="classcminor_1_1_location.html">Location</a> v)</td></tr>
+<tr class="separator:a1e9da39a61b5fb500b63a8c2abec2a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a94ffc86e085cdaef163797533cd9375a" id="r_a94ffc86e085cdaef163797533cd9375a"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classcminor_1_1_location.html">Location</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94ffc86e085cdaef163797533cd9375a">predLocations</a> = new List&lt;<a class="el" href="classcminor_1_1_location.html">Location</a>&gt;()</td></tr>
+<tr class="separator:a94ffc86e085cdaef163797533cd9375a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11db901f50c745282dcd392651f0ef72" id="r_a11db901f50c745282dcd392651f0ef72"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classcminor_1_1_location.html">Location</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11db901f50c745282dcd392651f0ef72">succLocations</a> = new List&lt;<a class="el" href="classcminor_1_1_location.html">Location</a>&gt;()</td></tr>
+<tr class="separator:a11db901f50c745282dcd392651f0ef72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6fec688d16f8603d6904a914daeacc7" id="r_ac6fec688d16f8603d6904a914daeacc7"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classcminor_1_1_statement.html">Statement</a>?&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6fec688d16f8603d6904a914daeacc7">succStatements</a> = new List&lt;<a class="el" href="classcminor_1_1_statement.html">Statement</a>?&gt;()</td></tr>
+<tr class="separator:ac6fec688d16f8603d6904a914daeacc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:ac67ff04b1ea1b19afd16d5f7057f83cc" id="r_ac67ff04b1ea1b19afd16d5f7057f83cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac67ff04b1ea1b19afd16d5f7057f83cc">PrintPredecessors</a> (TextWriter writer)</td></tr>
+<tr class="separator:ac67ff04b1ea1b19afd16d5f7057f83cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02af973330ad14569d942afc7945a1d" id="r_ae02af973330ad14569d942afc7945a1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae02af973330ad14569d942afc7945a1d">PrintSuccessors</a> (TextWriter writer)</td></tr>
+<tr class="separator:ae02af973330ad14569d942afc7945a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ef967ccf65c4119ca4ba5fe0ba662fb" id="r_a3ef967ccf65c4119ca4ba5fe0ba662fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ef967ccf65c4119ca4ba5fe0ba662fb">PrintCondition</a> (TextWriter writer, string name, <a class="el" href="classcminor_1_1_expression.html">Expression</a> condition)</td></tr>
+<tr class="separator:a3ef967ccf65c4119ca4ba5fe0ba662fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:a03151085849ad6f227d691bf045cd248" id="r_a03151085849ad6f227d691bf045cd248"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03151085849ad6f227d691bf045cd248">number</a> = ++numberCounter<code> [get]</code></td></tr>
+<tr class="separator:a03151085849ad6f227d691bf045cd248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>用于表示“程序位置”的类。 </p>
+<p>FIXME: 目前对 location 的处理有问题，EntryLocation 可能同时是 ExitLocation 和 LoopHeadLocation，在类型设计和生成 CFA 的时候都需要改。 </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a3a71676f4860c04f59a9175033429a48" name="a3a71676f4860c04f59a9175033429a48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a71676f4860c04f59a9175033429a48">&#9670;&#160;</a></span>Location() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">cminor.Location.Location </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57e161dd922f674db88143d3d22bccac" name="a57e161dd922f674db88143d3d22bccac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57e161dd922f674db88143d3d22bccac">&#9670;&#160;</a></span>Location() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">cminor.Location.Location </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_function.html">Function</a></td>          <td class="paramname"><span class="paramname"><em>currentFunction</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85ab5b5ffc81061551c18dcd4b26aad4" name="a85ab5b5ffc81061551c18dcd4b26aad4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85ab5b5ffc81061551c18dcd4b26aad4">&#9670;&#160;</a></span>Location() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">cminor.Location.Location </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_function.html">Function</a></td>          <td class="paramname"><span class="paramname"><em>currentFunction</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_location.html">Location</a></td>          <td class="paramname"><span class="paramname"><em>lastLocation</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_statement.html">Statement</a>?</td>          <td class="paramname"><span class="paramname"><em>statement</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="af946247f1de425ee3d397f2e43d19f5a" name="af946247f1de425ee3d397f2e43d19f5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af946247f1de425ee3d397f2e43d19f5a">&#9670;&#160;</a></span>AddEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void cminor.Location.AddEdge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_location.html">Location</a></td>          <td class="paramname"><span class="paramname"><em>u</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_location.html">Location</a></td>          <td class="paramname"><span class="paramname"><em>v</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_statement.html">Statement</a></td>          <td class="paramname"><span class="paramname"><em>statement</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e9da39a61b5fb500b63a8c2abec2a26" name="a1e9da39a61b5fb500b63a8c2abec2a26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e9da39a61b5fb500b63a8c2abec2a26">&#9670;&#160;</a></span>Merge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcminor_1_1_location.html">Location</a> cminor.Location.Merge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_function.html">Function</a></td>          <td class="paramname"><span class="paramname"><em>currentFunction</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_location.html">Location</a></td>          <td class="paramname"><span class="paramname"><em>u</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_location.html">Location</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa156941664aec6ae24bb5df66bc2b77f" name="aa156941664aec6ae24bb5df66bc2b77f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa156941664aec6ae24bb5df66bc2b77f">&#9670;&#160;</a></span>Print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void cminor.Location.Print </td>
+          <td>(</td>
+          <td class="paramtype">TextWriter</td>          <td class="paramname"><span class="paramname"><em>writer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="classcminor_1_1_exit_location.html#a6419c674c4156c54b9fb2ee09f835988">cminor.ExitLocation</a>, <a class="el" href="classcminor_1_1_entry_location.html#aa8dd589bbd7d5168e237751b89539a9c">cminor.EntryLocation</a> , 以及 <a class="el" href="classcminor_1_1_loop_head_location.html#a0ca118e82c60c6cd8dc62c67881ab444">cminor.LoopHeadLocation</a> 重载.</p>
+
+</div>
+</div>
+<a id="a3ef967ccf65c4119ca4ba5fe0ba662fb" name="a3ef967ccf65c4119ca4ba5fe0ba662fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ef967ccf65c4119ca4ba5fe0ba662fb">&#9670;&#160;</a></span>PrintCondition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cminor.Location.PrintCondition </td>
+          <td>(</td>
+          <td class="paramtype">TextWriter</td>          <td class="paramname"><span class="paramname"><em>writer</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_expression.html">Expression</a></td>          <td class="paramname"><span class="paramname"><em>condition</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac67ff04b1ea1b19afd16d5f7057f83cc" name="ac67ff04b1ea1b19afd16d5f7057f83cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac67ff04b1ea1b19afd16d5f7057f83cc">&#9670;&#160;</a></span>PrintPredecessors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cminor.Location.PrintPredecessors </td>
+          <td>(</td>
+          <td class="paramtype">TextWriter</td>          <td class="paramname"><span class="paramname"><em>writer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae02af973330ad14569d942afc7945a1d" name="ae02af973330ad14569d942afc7945a1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae02af973330ad14569d942afc7945a1d">&#9670;&#160;</a></span>PrintSuccessors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cminor.Location.PrintSuccessors </td>
+          <td>(</td>
+          <td class="paramtype">TextWriter</td>          <td class="paramname"><span class="paramname"><em>writer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af08b38bf3794a716f476a9dc30e391a6" name="af08b38bf3794a716f476a9dc30e391a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08b38bf3794a716f476a9dc30e391a6">&#9670;&#160;</a></span>RemovePred()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cminor.Location.RemovePred </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_location.html">Location</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8134a094e85f5dd9f3a71b13b8ff60a" name="ad8134a094e85f5dd9f3a71b13b8ff60a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8134a094e85f5dd9f3a71b13b8ff60a">&#9670;&#160;</a></span>RemoveSucc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cminor.Location.RemoveSucc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcminor_1_1_location.html">Location</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69e065972d14951c200d907ffad540ec" name="a69e065972d14951c200d907ffad540ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69e065972d14951c200d907ffad540ec">&#9670;&#160;</a></span>ToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string cminor.Location.ToString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a94ffc86e085cdaef163797533cd9375a" name="a94ffc86e085cdaef163797533cd9375a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94ffc86e085cdaef163797533cd9375a">&#9670;&#160;</a></span>predLocations</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="classcminor_1_1_location.html">Location</a>&gt; cminor.Location.predLocations = new List&lt;<a class="el" href="classcminor_1_1_location.html">Location</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11db901f50c745282dcd392651f0ef72" name="a11db901f50c745282dcd392651f0ef72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11db901f50c745282dcd392651f0ef72">&#9670;&#160;</a></span>succLocations</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="classcminor_1_1_location.html">Location</a>&gt; cminor.Location.succLocations = new List&lt;<a class="el" href="classcminor_1_1_location.html">Location</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6fec688d16f8603d6904a914daeacc7" name="ac6fec688d16f8603d6904a914daeacc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6fec688d16f8603d6904a914daeacc7">&#9670;&#160;</a></span>succStatements</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="classcminor_1_1_statement.html">Statement</a>?&gt; cminor.Location.succStatements = new List&lt;<a class="el" href="classcminor_1_1_statement.html">Statement</a>?&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a id="a03151085849ad6f227d691bf045cd248" name="a03151085849ad6f227d691bf045cd248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03151085849ad6f227d691bf045cd248">&#9670;&#160;</a></span>number</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cminor.Location.number = ++numberCounter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>ir/<a class="el" href="_location_8cs.html">Location.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>
